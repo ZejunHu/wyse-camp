@@ -4,6 +4,7 @@
   "description": "Camp page for wyse website",
   "author": "",
   "license": "ISC",
+  "main": "index.html",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "font-awesome": "^4.7.0",
