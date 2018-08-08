@@ -1,0 +1,34 @@
+.notice {
+  padding: 1rem 0;
+  .notice-heading {
+    position: relative;
+    .notice-heading-bg {
+      height: 120px;
+      width: 180px;
+    }
+    .notice-heading-text {
+      position: absolute;
+      color: $white;
+      font-size: 1.4rem;
+      top: 46px;
+      left: 40px;
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .notice-heading {
+      .notice-heading-bg {
+        height: 200px;
+        width: 241.6px;
+      }
+      .notice-heading-text {
+        font-size: 2rem;
+        top: 80px;
+        left: 60px;
+      }
+    }
+
+  }
+
+}

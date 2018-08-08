@@ -311,3 +311,36 @@
     max-height: 1110px;
   }
 }
+
+.notice {
+  padding: 1rem 0;
+}
+
+.notice .notice-heading {
+  position: relative;
+}
+
+.notice .notice-heading .notice-heading-bg {
+  height: 120px;
+  width: 180px;
+}
+
+.notice .notice-heading .notice-heading-text {
+  position: absolute;
+  color: #fff;
+  font-size: 1.4rem;
+  top: 46px;
+  left: 40px;
+}
+
+@media (min-width: 992px) {
+  .notice .notice-heading .notice-heading-bg {
+    height: 200px;
+    width: 241.6px;
+  }
+  .notice .notice-heading .notice-heading-text {
+    font-size: 2rem;
+    top: 80px;
+    left: 60px;
+  }
+}
