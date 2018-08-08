@@ -1,0 +1,48 @@
+.masthead {
+  background-image: url("../img/header.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 8rem 1rem 4rem;
+  color: #fff;
+}
+
+.masthead .masthead-heading {
+  text-align: center;
+}
+
+.masthead .masthead-content {
+  padding: 1rem;
+}
+
+.masthead .masthead-content .masthead-list {
+  list-style: none;
+  padding: 0;
+}
+
+.masthead .masthead-content .masthead-list .list-item {
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+}
+
+.masthead .masthead-content .masthead-list .list-item .list-indicator {
+  height: 1.125rem;
+  width: 1.125rem;
+  margin-top: -0.4rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .masthead .masthead-heading {
+    margin-bottom: 2rem;
+  }
+  .masthead .masthead-content .masthead-list {
+    padding-left: 1rem;
+  }
+  .masthead .masthead-content .masthead-list .list-item {
+    margin: 0;
+  }
+}
