@@ -273,7 +273,7 @@ p {
   }
   .university .university-content {
     overflow-y: auto;
-    max-height: 880px;
+    max-height: 830px;
   }
   .university .university-content .university-course .university-content-tag {
     margin-left: 6.5rem;
@@ -286,13 +286,13 @@ p {
 
 @media (min-width: 1200px) {
   .university .university-content {
-    max-height: 830px;
+    max-height: 760px;
   }
 }
 
 @media (min-width: 1500px) {
   .university .university-content {
-    max-height: 700px;
+    max-height: 640px;
   }
 }
 

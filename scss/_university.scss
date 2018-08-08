@@ -90,7 +90,7 @@
       // line-height: 2.6rem;
       //height: 299px;
       overflow-y: auto;
-      max-height: 880px;
+      max-height: 830px;
       .university-content-subheading {
         // img {
         //   height: 4.5rem;
@@ -120,13 +120,13 @@
 
   @media (min-width: 1200px) {
     .university-content {
-      max-height: 830px;
+      max-height: 760px;
     }
   }
 
   @media (min-width: 1500px) {
     .university-content {
-      max-height: 700px;
+      max-height: 640px;
     }
   }
 }
