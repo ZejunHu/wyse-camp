@@ -128,3 +128,48 @@
     line-height: 2.6rem;
   }
 }
+
+.wish {
+  padding: 1rem 0;
+}
+
+.wish .wish-heading {
+  position: relative;
+}
+
+.wish .wish-heading .wish-heading-bg {
+  height: 120px;
+  width: 180px;
+}
+
+.wish .wish-heading .wish-heading-text {
+  position: absolute;
+  color: #fff;
+  font-size: 1.4rem;
+  top: 46px;
+  left: 40px;
+}
+
+.wish .wish-content {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #545454;
+}
+
+@media (min-width: 992px) {
+  .wish .wish-heading .wish-heading-bg {
+    height: 200px;
+    width: 241.6px;
+  }
+  .wish .wish-heading .wish-heading-text {
+    font-size: 2rem;
+    top: 80px;
+    left: 60px;
+  }
+  .wish .wish-content {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}

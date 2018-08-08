@@ -1,0 +1,44 @@
+.wish {
+  padding: 1rem 0;
+  .wish-heading {
+    position: relative;
+    .wish-heading-bg {
+      height: 120px;
+      width: 180px;
+    }
+    .wish-heading-text {
+      position: absolute;
+      color: $white;
+      font-size: 1.4rem;
+      top: 46px;
+      left: 40px;
+    }
+  }
+
+  .wish-content {
+    padding: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: $black;
+  }
+
+  @media (min-width: 992px) {
+    .wish-heading {
+      .wish-heading-bg {
+        height: 200px;
+        width: 241.6px;
+      }
+      .wish-heading-text {
+        font-size: 2rem;
+        top: 80px;
+        left: 60px;
+      }
+    }
+
+    .wish-content {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+    }
+  }
+}
