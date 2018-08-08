@@ -17,20 +17,20 @@
 
   .wish-content {
     padding: 1rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: #000000;
+    // font-size: 1.2rem;
+    // line-height: 2rem;
+    // color: #000000;
   }
 
   @media (min-width: 992px) {
     .wish-heading {
       .wish-heading-bg {
-        height: 200px;
-        width: 241.6px;
+        height: 144px;
+        width: 216px;
       }
       .wish-heading-text {
-        font-size: 2rem;
-        top: 80px;
+        font-size: 1.4rem;
+        top: 58px;
         left: 60px;
       }
     }

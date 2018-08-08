@@ -17,26 +17,28 @@
 
   .university-content {
     padding: 1rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    color: #000000;
+    // font-size: 1.2rem;
+    // line-height: 2rem;
+    // color: #000000;
     .university-content-subheading {
-      padding: 2rem 0;
-      height: 8rem;
-      margin-bottom: 1rem;
+      padding: 0;
+      height: 4rem;
+      margin: 1rem 0;
       color: $black;
       img {
         float: left;
-        height: 5rem;
-        width: 5rem;
+        height: 4.5rem;
+        width: 4.5rem;
         padding: 0.5rem;
+        margin-top: -0.5rem;
       }
       h3 {
         position: relative;
         top: 1.2rem;
         left: 0.8rem;
+        font-size: 20px;
         font-weight: bold;
-        padding-left: 0.5rem;
+        padding-left: 1rem;
       }
     }
     .university-course {
@@ -45,7 +47,7 @@
         border-radius: 20px;
         color: $white;
         display: inline-block;
-        padding: 1rem 2rem;
+        padding: 0.8rem 1.6rem;
         font-weight: bold;
         margin-bottom: 1.5rem;
         margin-left: 1rem;
@@ -73,34 +75,34 @@
   @media (min-width: 992px) {
     .university-heading {
       .university-heading-bg {
-        height: 200px;
-        width: 356.8px;
+        height: 144px;
+        width: 256.8px;
       }
       .university-heading-text {
-        font-size: 2rem;
-        top: 80px;
-        left: 54px;
+        font-size: 1.4rem;
+        top: 58px;
+        left: 40px;
       }
     }
 
     .university-content {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
+      // font-size: 1.6rem;
+      // line-height: 2.6rem;
       //height: 299px;
       overflow-y: auto;
-      max-height: 1480px;
+      max-height: 880px;
       .university-content-subheading {
-        img {
-          height: 6rem;
-          width: 6rem;
-          padding: 0.5rem;
-          margin-top: -0.5rem;
-        }
-        h3 {
-          font-size: 2rem;
-          font-weight: bold;
-          padding-left: 1rem;
-        }
+        // img {
+        //   height: 4.5rem;
+        //   width: 4.5rem;
+        //   padding: 0.5rem;
+        //   margin-top: -0.5rem;
+        // }
+        // h3 {
+        //   font-size: 20px;
+        //   font-weight: bold;
+        //   padding-left: 1rem;
+        // }
       }
       .university-course {
         .university-content-tag {
@@ -118,13 +120,13 @@
 
   @media (min-width: 1200px) {
     .university-content {
-      max-height: 1330px;
+      max-height: 830px;
     }
   }
 
   @media (min-width: 1500px) {
     .university-content {
-      max-height: 1110px;
+      max-height: 700px;
     }
   }
 }
