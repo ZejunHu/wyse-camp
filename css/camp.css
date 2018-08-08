@@ -1,6 +1,6 @@
 .bg-main {
   background-image: url("../img/pattern-pic.png");
-  background-repeat: repeat-y;
+  background-repeat: repeat;
 }
 
 @media (min-width: 1500px) {
@@ -165,7 +165,7 @@
   padding: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: #545454;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -209,13 +209,14 @@
   padding: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
-  color: #545454;
+  color: #000000;
 }
 
 .university .university-content .university-content-subheading {
   padding: 2rem 0;
   height: 8rem;
   margin-bottom: 1rem;
+  color: #545454;
 }
 
 .university .university-content .university-content-subheading img {
