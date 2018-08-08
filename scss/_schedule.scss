@@ -1,0 +1,72 @@
+.schedule {
+  padding: 2rem 0;
+  .schedule-heading {
+    position: relative;
+    .schedule-heading-bg {
+      height: 120px;
+      width: 276px;
+    }
+    .schedule-heading-text {
+      position: absolute;
+      color: $white;
+      font-size: 1.4rem;
+      top: 46px;
+      left: 30px;
+    }
+  }
+  .carousel {
+    padding: 1rem 0 4rem;
+    .carousel-indicators {
+      bottom: 0;
+      &--round li {
+        border-radius: 10px;
+        margin: 0 0.5rem;
+        height: 12px;
+        max-width: 12px;
+        border: 1px;
+        background-color: $black;
+        opacity: 0.5;
+        cursor: pointer;
+        &:hover {
+          background-color: $yellow;
+        }
+      }
+      .active {
+        background-color: $yellow;
+      }
+    }
+  }
+
+  .schedule-notice {
+    .schedule-notice-img {}
+    .schedule-notice-text {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      font-weight: 700;
+      color: $red;
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .schedule-heading {
+      .schedule-heading-bg {
+        height: 200px;
+        width: 460px;
+      }
+      .schedule-heading-text {
+        font-size: 2rem;
+        top: 80px;
+        left: 80px;
+      }
+    }
+
+    .schedule-notice {
+      .schedule-notice-img {}
+      .schedule-notice-text {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+      }
+    }
+  }
+}

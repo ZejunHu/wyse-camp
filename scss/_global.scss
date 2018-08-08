@@ -1,0 +1,12 @@
+.bg-main {
+  background-image: url("../img/pattern-pic.png");
+  background-repeat: repeat-y;
+}
+
+.container {
+  &--large {
+    @media (min-width: 1500px) {
+      max-width: 1400px;
+    }
+  }
+}
