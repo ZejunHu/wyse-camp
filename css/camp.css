@@ -106,10 +106,21 @@
   background-color: #DBC168;
 }
 
+.schedule .schedule-notice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.schedule .schedule-notice .schedule-notice-img {
+  flex: 0 0 10%;
+  padding: 0 10px;
+}
+
 .schedule .schedule-notice .schedule-notice-text {
+  padding: 0 10px;
+  flex: 0 0 90%;
   font-size: 1.2rem;
   line-height: 2rem;
-  font-weight: 700;
   color: #943430;
 }
 
@@ -154,7 +165,6 @@
   padding: 1rem;
   font-size: 1.2rem;
   line-height: 2rem;
-  font-weight: 700;
   color: #545454;
 }
 
@@ -171,5 +181,133 @@
   .wish .wish-content {
     font-size: 1.6rem;
     line-height: 2.6rem;
+  }
+}
+
+.university {
+  padding: 1rem 0;
+}
+
+.university .university-heading {
+  position: relative;
+}
+
+.university .university-heading .university-heading-bg {
+  height: 120px;
+  width: 214px;
+}
+
+.university .university-heading .university-heading-text {
+  position: absolute;
+  color: #fff;
+  font-size: 1.4rem;
+  top: 46px;
+  left: 24px;
+}
+
+.university .university-content {
+  padding: 1rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #545454;
+}
+
+.university .university-content .university-content-subheading {
+  padding: 2rem 0;
+  height: 8rem;
+  margin-bottom: 1rem;
+}
+
+.university .university-content .university-content-subheading img {
+  float: left;
+  height: 5rem;
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+.university .university-content .university-content-subheading h3 {
+  position: relative;
+  top: 1.2rem;
+  left: 0.8rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.university .university-content .university-course .university-content-tag {
+  background-color: #DBC168;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.university .university-content .university-course p, .university .university-content .university-course ul {
+  margin-left: 1rem;
+}
+
+.university .university-content .university-course .university-course-list {
+  list-style: none;
+  padding: 0;
+}
+
+.university .university-content .university-course .university-course-list .list-item {
+  margin: 0.5rem 0;
+}
+
+.university .university-content .university-course .university-course-list .list-item .list-indicator {
+  height: 1.125rem;
+  width: 1.125rem;
+  margin-top: -0.4rem;
+  margin-right: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  .university .university-heading .university-heading-bg {
+    height: 200px;
+    width: 356.8px;
+  }
+  .university .university-heading .university-heading-text {
+    font-size: 2rem;
+    top: 80px;
+    left: 54px;
+  }
+  .university .university-content {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    overflow-y: auto;
+    max-height: 1480px;
+  }
+  .university .university-content .university-content-subheading img {
+    height: 6rem;
+    width: 6rem;
+    padding: 0.5rem;
+    margin-top: -0.5rem;
+  }
+  .university .university-content .university-content-subheading h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+  }
+  .university .university-content .university-course .university-content-tag {
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+  }
+  .university .university-content .university-course p, .university .university-content .university-course ul {
+    margin-left: 6.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .university .university-content {
+    max-height: 1330px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .university .university-content {
+    max-height: 1110px;
   }
 }
